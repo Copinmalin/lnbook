@@ -298,7 +298,7 @@ Pay-to-Witness-Script-Hash (P2WSH)::
     P2WSH is the SegWit equivalent of P2SH, using a segregated witness. The signature and script to spend a P2WSH output is put in the witness tree instead of the ScriptSig field. See _SegWit_.
 
 P2WSH address::
-	The "native Segwi v0" script address format, P2WSH addresses are bech32-encoded and start with "bc1q".
+	The "native Segwit v0" script address format, P2WSH addresses are bech32-encoded and start with "bc1q".
 
 Pay-to-Taproot (P2TR)::
 	Activating in November 2021, Taproot is a new output type that locks bitcoin to a tree of spending conditions, or a single root condition.
